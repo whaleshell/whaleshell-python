@@ -48,6 +48,7 @@ with Client("http://127.0.0.1:7443") as c:
 ## Related
 
 | Resource | Link |
+| Roadmap | [ROADMAP.md](./ROADMAP.md) |
 |----------|------|
 | Organization | [https://github.com/zorneth](https://github.com/zorneth) |
 | Go SDK | [zorneth/osg-sdk](https://github.com/zorneth/osg-sdk) |
