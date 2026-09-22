@@ -1,6 +1,6 @@
-# Roadmap — osg-python
+# Roadmap — whaleshell-python
 
-Status: **v0.1.0-alpha.1** (alpha) · HTTP client for [osg-gateway](https://github.com/zorneth/osg-gateway)
+Status: **v0.1.0-alpha.1** (alpha) · HTTP client for [whaleshell-gateway](https://github.com/whaleshell/whaleshell-gateway)
 
 ## This module
 
@@ -8,7 +8,7 @@ Status: **v0.1.0-alpha.1** (alpha) · HTTP client for [osg-gateway](https://gith
 |----|------|-------|
 | Y1 | **API parity** | Match Go SDK: proposals, providers, effective-policy |
 | Y2 | **Typing** | Publish typed stubs / py.typed |
-| Y3 | **PyPI** | Versioned `osg` package aligned with gateway alpha |
+| Y3 | **PyPI** | Versioned `whaleshell` package aligned with gateway alpha |
 
 ## Release
 
