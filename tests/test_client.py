@@ -8,7 +8,7 @@ from threading import Thread
 
 import pytest
 
-from osg import Client, ConnectUnsupported, Sandbox
+from whaleshell import Client, ConnectUnsupported, Sandbox
 
 
 class _Handler(BaseHTTPRequestHandler):

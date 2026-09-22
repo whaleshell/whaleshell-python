@@ -1,7 +1,7 @@
 [project]
-name = "osg"
+name = "whaleshell"
 version = "0.1.0a1"
-description = "Python SDK for the osg gateway control plane"
+description = "Python SDK for the whaleshell gateway control plane"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
@@ -17,4 +17,4 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["osg*"]
+include = ["whaleshell*"]

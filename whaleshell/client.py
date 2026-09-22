@@ -1,4 +1,4 @@
-"""HTTP client for osg-gateway (create/list/get/delete/exec)."""
+"""HTTP client for whaleshell-gateway (create/list/get/delete/exec)."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ import httpx
 
 
 class ConnectUnsupported(RuntimeError):
-    """Interactive connect stays on the CLI (`osg connect <name>`)."""
+    """Interactive connect stays on the CLI (`whaleshell connect <name>`)."""
 
 
 @dataclass
@@ -38,7 +38,7 @@ class ExecResult:
 
 
 class Client:
-    """Wraps osg-gateway HTTP + relay exec."""
+    """Wraps whaleshell-gateway HTTP + relay exec."""
 
     def __init__(self, base_url: str, timeout: float = 70.0) -> None:
         self.base_url = base_url.rstrip("/")
@@ -117,5 +117,5 @@ class Client:
 
     def connect(self, name: str) -> None:
         raise ConnectUnsupported(
-            f"interactive connect is not supported; use: osg connect {name}"
+            f"interactive connect is not supported; use: whaleshell connect {name}"
         )

@@ -1,4 +1,4 @@
-"""osg — Python SDK for the osg gateway."""
+"""whaleshell — Python SDK for the whaleshell gateway."""
 
 from .client import Client, ConnectUnsupported, ExecResult, Sandbox
 
